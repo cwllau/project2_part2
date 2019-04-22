@@ -45,6 +45,11 @@ public class MatrixProduct {
         {
             return false;
         }
+        //checking if they are square, if (column != row)
+        if (A[0].length != A.length)
+        {
+            System.err.println("A is not a square");
+        }
 
         return true;
     }
