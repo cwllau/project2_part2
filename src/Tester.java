@@ -56,6 +56,17 @@ public class Tester {
             System.out.println();
         }
 
+        System.out.println();
+        int [][] c_s = MatrixProduct.matrixProduct_Strassen(m,n);
+        for(int i = 0; i < c.length; i ++)
+        {
+            for(int j = 0; j < c.length; j++)
+            {
+                System.out.print(c[i][j] + " ");
+            }
+            System.out.println();
+        }
+
 //        int[][] w = new int[2][2];
 //        w[0][0] = 1;
 //        w[0][1] = 2;
